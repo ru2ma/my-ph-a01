@@ -50,3 +50,15 @@ body {
 .common-btn:hover{
     background-color: #2047c5;
 }
+/* style of hero section */
+.hero{
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
