@@ -1,0 +1,52 @@
+/* universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar styles */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img{
+    width: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 80px;
+}
+.nav-keys {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: "Arimo", sans-serif;
+    color: #575757FF;
+    cursor: pointer;
+}
+.nav-keys li:hover {
+    color: #2F56D6;
+}
+.common-btn{
+    background-color: #2F56D6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 192px;
+}
+.common-btn:hover{
+    background-color: #2047c5;
+}
