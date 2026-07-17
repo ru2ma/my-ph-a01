@@ -226,3 +226,72 @@ body {
 .speacial .pricing-btn:hover{
     background:#1D4ED8;
 }
+/* hackathon section styles */
+.hackathon{
+    padding:100px 80px;
+    background:#F8FAFC;
+    text-align:center;
+}
+.hackathon-heading{
+    max-width:700px;
+    margin:0 auto 60px;
+}
+.hackathon-heading h2{
+    font-size:52px;
+    color:#111827;
+    margin-bottom:20px;
+}
+.hackathon-heading p{
+    font-size:20px;
+    color:#6B7280;
+    line-height:1.6;
+}
+.hackathon-features{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-bottom:60px;
+}
+.feature-card{
+    background:white;
+    border:1px solid #E5E7EB;
+    border-radius:14px;
+    padding:30px;
+    width:240px;
+    transition:.3s;
+    cursor:pointer;
+}
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+.feature-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+/* footer section styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+    background-color: #101B2B;
+    border-top: 1px solid #2B3647;
+}
+.footer p{
+    color: #9CA3AF;
+    font-size: 14px;
+}
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #9CA3AF;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.footer-links a:hover{
+    color: white;
+}
